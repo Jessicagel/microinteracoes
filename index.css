@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type=submit]{
+    padding: 15px 30px;
+    font-size: 24px;
+    background-color:#623881;
+    border:0;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 1s;
+    
+}
+input[type=submit]:hover{
+    background: #3fded0 ;
+}
+    
